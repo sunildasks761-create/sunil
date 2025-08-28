@@ -1,0 +1,149 @@
+
+    nav ul li a:hover{
+        text-decoration: none;
+        color: rgb(112, 112, 224);
+        font-size: 1.05rem;
+    }
+    .left{
+        font-size: 2rem;
+    }
+    .firstsection{
+        display: flex;
+        justify-content: space-around;
+        margin: 140px 0;
+    }
+    .leftsection{
+         font-size: 2rem;
+         justify-content: space-around;
+         margin: 23px 0;
+         width: 30%;
+    } body{
+            background-color: rgb(0, 0, 33);
+             color: white;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            display: flex;
+            justify-content:space-around ;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(18, 18, 62);
+    }
+    nav ul{
+       
+        display: flex;
+       justify-content: center;
+
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        margin: 0 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    .rightsection{
+         
+         justify-content: space-around;
+         margin: 23px 0;
+         width: 30%;
+    }
+    .rightsection img{
+        width: 100%;
+        margin: px 0;
+    }
+    .purple{
+        color: rgb(162, 28, 162);
+    }
+   
+.secondsection {
+  background:  rgb(0, 0, 33);
+  height:80vh;
+  padding: 60px 20px;
+  text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondsection h1 {
+  font-size: 2.5rem;
+  margin: 10px 0 40px;
+  color: white;
+  position: relative;
+}
+
+.secondsection .grey {
+  color: white;
+  font-size: 1.2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+/* Container */
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 50px;
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Each timeline item */
+.vertical {
+  position: relative;
+  width: 220px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.vertical:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Top image */
+.imagetop {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2575fc;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vertical:hover .imagetop {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(37, 117, 252, 0.4);
+}
+
+/* Title */
+.veticle-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.vertical:hover .veticle-title {
+  color: #2575fc;
+}
+
+/* Description */
+.vertical-disc {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+}
